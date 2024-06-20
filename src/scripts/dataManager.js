@@ -76,7 +76,7 @@ function setPageThemeToStorage(){
 // check if data exists
 // if it does, retrieve it
 // else, set default variables to localstorage
-if (localStorage.getItem("pageTheme") && localStorage.getItem("cssThemes").length > 0) {
+if (localStorage.getItem("pageTheme") && localStorage.getItem("cssThemes")?.length > 0) {
     getStoredCssTheme();
     getStoredPageTheme();
 } else {
