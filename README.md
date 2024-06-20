@@ -1,5 +1,9 @@
 # T3p5 - Local Storage
 
+# Deployments
+
+- [Netlify](https://colinlocalstorageexample.netlify.app/)
+
 # Features
 
 1. Use local storage to persist CSS theme information
