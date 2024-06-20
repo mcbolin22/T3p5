@@ -69,4 +69,8 @@ JSON.stringify(cssThemes) = '[{"name":"theme1","hex":"000000"},{"name":"theme2",
 JSON is preferred because it is a standard format that can be read by any language.
 */
 
+function setPageThemeToStorage(){
+    localStorage.setItem('pageTheme', pageTheme);
+}
+
 // delete localstorage
